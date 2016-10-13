@@ -1,5 +1,7 @@
 FROM ubuntu:latest
 
+MAINTAINER Andrew Scott <amscott@openmailbox.org>
+
 RUN apt-get -y update
 RUN apt-get -y install build-essential git openssl libreadline6 libreadline6-dev curl git-core zlib1g zlib1g-dev libssl-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt-dev libmysqlclient-dev libpq-dev imagemagick phantomjs libffi-dev
 
