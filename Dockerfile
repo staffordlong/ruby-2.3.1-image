@@ -1,5 +1,7 @@
 FROM ubuntu:latest
 
+ENV LANG C.UTF-8
+
 MAINTAINER Andrew Scott <amscott@openmailbox.org>
 
 RUN apt-get -y update
